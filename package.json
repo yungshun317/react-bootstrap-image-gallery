@@ -16,5 +16,23 @@
   "bugs": {
     "url": "https://github.com/yungshun317/react-bootstrap-image-gallery/issues"
   },
-  "homepage": "https://github.com/yungshun317/react-bootstrap-image-gallery#readme"
+  "homepage": "https://github.com/yungshun317/react-bootstrap-image-gallery#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.47.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "^17.0.2"
+  }
 }
