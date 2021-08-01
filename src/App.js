@@ -1,5 +1,7 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import ImageGallery from "react-image-gallery";
 
 export default function App() {
@@ -11,7 +13,6 @@ export default function App() {
     ];
 
     return (
-        <>
             <Container>
                 <Row>
                     <Col>
@@ -21,6 +22,5 @@ export default function App() {
                     </Col>
                 </Row>
             </Container>
-        </>
     );
 }
